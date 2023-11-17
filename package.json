@@ -1,0 +1,36 @@
+{
+  "name": "birth",
+  "version": "0.0.0",
+  "description": "A mod for The Binding of Isaac: Repentance.",
+  "keywords": [
+    "isaac",
+    "mod",
+    "rebirth",
+    "afterbirth",
+    "repentance"
+  ],
+  "license": "GPL-3.0",
+  "type": "module",
+  "scripts": {
+    "build": "tstl",
+    "lint": "tsx ./scripts/lint.ts",
+    "nuke": "isaacscript nuke",
+    "publish": "isaacscript publish",
+    "start": "isaacscript monitor",
+    "update": "isaacscript update"
+  },
+  "dependencies": {
+    "isaac-typescript-definitions": "^39.0.2",
+    "isaacscript-common": "^80.1.0"
+  },
+  "devDependencies": {
+    "isaacscript": "^3.19.3",
+    "isaacscript-common-node": "^1.2.0",
+    "isaacscript-lint": "^6.4.0",
+    "isaacscript-spell": "^1.10.0",
+    "isaacscript-tsconfig": "^5.0.0",
+    "tsx": "^4.1.3",
+    "typescript": "^5.2.2",
+    "typescript-to-lua": "^1.21.0"
+  }
+}
