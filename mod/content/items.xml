@@ -1,0 +1,3 @@
+<items gfxroot="gfx/items/" version="1">
+  <passive description="Baby's first mod" gfx="green-candle.png" name="Green Candle" />
+</items>
